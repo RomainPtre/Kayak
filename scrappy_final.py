@@ -1,7 +1,7 @@
 from scrapy.crawler import CrawlerProcess
 import scrapy
 import os
-import logging
+import logging 
 
 class BookingSpider(scrapy.Spider):
     name = 'nested_spider'
